@@ -1,0 +1,12 @@
+.slider {
+    width: 100%;
+}
+
+.container {
+  max-width: 1640px;
+  margin: 0 auto;
+}
+
+  .itc-slider-items {
+    counter-reset: slide;
+  }

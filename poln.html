@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Полноразмерные наушники</title>
+
+    <link rel="stylesheet" href="css/basics.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/poln.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/input.css">
+
+    <script src="js/input.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="header__container">
+                <div class="logo">
+                    <img class = "header-logo" src="src/img/logo.png" alt="">
+                </div>
+                <ul class="menu">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Товары</a></li>
+                    <li><a href="#">Блог</a></li>
+                    <li><a href="#">О нас</a></li>
+                </ul>
+                <div class="icons">
+                    <img class="header-ico" src="src/img/user-cab.png" alt="">
+                    <img class="header-ico" src="src/img/cart.png" alt="">
+                    <img class="header-ico" src="src/img/settings.png" alt="">
+                    <img class="header-ico" src="src/img/heart.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="under-header">
+            <div class="header__container">
+                <ul class = "under-menu">
+                    <li>
+                        <a href="#">
+                            <img class = "under-header-ico" src="src/img/airpods.png" alt="">
+                            Наушники-вкладыши
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class = "under-header-ico" src="src/img/headphones.png" alt="">
+                            Внутриканальные наушники
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class = "under-header-ico" src="src/img/music-play.png" alt="">
+                            Полноразмерные
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class = "under-header-ico" src="src/img/airpod.png" alt="">
+                            Затычки
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <div class="main__container">
+                <h1>Полноразмерные</h1>
+                <div class="product-panels">
+                    <div class="sidebar">
+                        <div class="sidebar__container">
+                            <h2>Цена</h2>
+                            <div class="container">
+                                <div class="inputs">
+                                    <input type="number">
+                                    <input type="number">
+                                </div>
+                                <div class="slider-track">
+                                    <input type="range" min="0" max="100" value="30" id="slider-1" oninput="slideOne()">
+                                    <input type="range" min="0" max="100" value="70" id="slider-2" oninput="slideTwo()">
+                                </div>
+                            </div>
+                            <h2>Бренд</h2>
+                            <ul>
+                                <li><input type="checkbox">1MORE</li>
+                                <li><input type="checkbox">1MORE</li>
+                                <li><input type="checkbox">1MORE</li>
+                                <li><input type="checkbox">1MORE</li>
+                                <li><input type="checkbox">1MORE</li>
+                                <li><input type="checkbox">1MORE</li>
+                                <li><input type="checkbox">1MORE</li>
+                            </ul>
+                            <h2>Тип наушников</h2>
+                            <ul>
+                                <li><input type="checkbox">беспроводной</li>
+                                <li><input type="checkbox">проводной</li>
+                            </ul>
+                            <h2>Поддержка кодеков</h2>
+                            <ul>
+                                <li><input type="checkbox">AAC</li>
+                                <li><input type="checkbox">AptX</li>
+                                <li><input type="checkbox">LDAC</li>
+                                <li><input type="checkbox">SBC</li>
+                            </ul>
+                            <h2>Версия Bluetooth</h2>
+                            <ul>
+                                <li><input type="checkbox">5.2</li>
+                                <li><input type="checkbox">5.0</li>
+                                <li><input type="checkbox">4.2</li>
+                            </ul>
+                            <h2>Минимальная воспроизводимая частота, Гц</h2>
+                            <div class="container">
+                                <div class="inputs">
+                                    <input type="number">
+                                    <input type="number">
+                                </div>
+                                <div class="slider-track">
+                                    <input type="range" min="0" max="100" value="30" id="slider-1" oninput="slideOne()">
+                                    <input type="range" min="0" max="100" value="70" id="slider-2" oninput="slideTwo()">
+                                </div>
+                            </div>
+                            <h2>Максимальная воспроизводимая частота, кГц</h2>
+                            <div class="container">
+                                <div class="inputs">
+                                    <input type="number">
+                                    <input type="number">
+                                </div>
+                                <div class="slider-track">
+                                    <input type="range" min="0" max="100" value="30" id="slider-1" oninput="slideOne()">
+                                    <input type="range" min="0" max="100" value="70" id="slider-2" oninput="slideTwo()">
+                                </div>
+                            </div>
+                            <h2>Система активного шумоподавления</h2>
+                            <ul>
+                                <li><input type="checkbox">не важно</li>
+                                <li><input type="checkbox">да</li>
+                                <li><input type="checkbox">нет</li>
+                            </ul>
+                            <h2>Разъем для зарядки</h2>
+                            <ul>
+                                <li><input type="checkbox">usb c</li>
+                                <li><input type="checkbox">usb micro</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="products">
+                            <div class="product">
+                                <div class="product-icons">
+                                    <img src="src/img/add-to-cart.png" alt="">
+                                    <img src="src/img/heart.png" alt="">
+                                </div>
+                                <img class = "product-photo" src="src/img/example-product.png" alt="">
+                                <h3 class = "product-title">Sennheiser Momentum 4 Black</h3>
+                                <button class = "buy-btn"><img src="src/img/cart-btn.png" alt=""> Купить</button>
+                                <div class="product-price">7 490 ₽</div>
+                                
+                            </div>
+                            <div class="product">
+                                <div class="product-icons">
+                                    <img src="src/img/add-to-cart.png" alt="">
+                                    <img src="src/img/heart.png" alt="">
+                                </div>
+                                <img class = "product-photo" src="src/img/example-product.png" alt="">
+                                <h3 class = "product-title">Sennheiser Momentum 4 Black</h3>
+                                <button class = "buy-btn"><img src="src/img/cart-btn.png" alt=""> Купить</button>
+                                <div class="product-price">7 490 ₽</div>
+                                
+                            </div>
+                            <div class="product">
+                                <div class="product-icons">
+                                    <img src="src/img/add-to-cart.png" alt="">
+                                    <img src="src/img/heart.png" alt="">
+                                </div>
+                                <img class = "product-photo" src="src/img/example-product.png" alt="">
+                                <h3 class = "product-title">Sennheiser Momentum 4 Black</h3>
+                                <button class = "buy-btn"><img src="src/img/cart-btn.png" alt=""> Купить</button>
+                                <div class="product-price">7 490 ₽</div>
+                                
+                            </div>
+                            <div class="product">
+                                <div class="product-icons">
+                                    <img src="src/img/add-to-cart.png" alt="">
+                                    <img src="src/img/heart.png" alt="">
+                                </div>
+                                <img class = "product-photo" src="src/img/example-product.png" alt="">
+                                <h3 class = "product-title">Sennheiser Momentum 4 Black</h3>
+                                <button class = "buy-btn"><img src="src/img/cart-btn.png" alt=""> Купить</button>
+                                <div class="product-price">7 490 ₽</div>
+                                
+                            </div>
+                            <div class="product">
+                                <div class="product-icons">
+                                    <img src="src/img/add-to-cart.png" alt="">
+                                    <img src="src/img/heart.png" alt="">
+                                </div>
+                                <img class = "product-photo" src="src/img/example-product.png" alt="">
+                                <h3 class = "product-title">Sennheiser Momentum 4 Black</h3>
+                                <button class = "buy-btn"><img src="src/img/cart-btn.png" alt=""> Купить</button>
+                                <div class="product-price">7 490 ₽</div>
+                                
+                            </div>
+                            <div class="product">
+                                <div class="product-icons">
+                                    <img src="src/img/add-to-cart.png" alt="">
+                                    <img src="src/img/heart.png" alt="">
+                                </div>
+                                <img class = "product-photo" src="src/img/example-product.png" alt="">
+                                <h3 class = "product-title">Sennheiser Momentum 4 Black</h3>
+                                <button class = "buy-btn"><img src="src/img/cart-btn.png" alt=""> Купить</button>
+                                <div class="product-price">7 490 ₽</div>
+                                
+                            </div>
+                            <div class="product">
+                                <div class="product-icons">
+                                    <img src="src/img/add-to-cart.png" alt="">
+                                    <img src="src/img/heart.png" alt="">
+                                </div>
+                                <img class = "product-photo" src="src/img/example-product.png" alt="">
+                                <h3 class = "product-title">Sennheiser Momentum 4 Black</h3>
+                                <button class = "buy-btn"><img src="src/img/cart-btn.png" alt=""> Купить</button>
+                                <div class="product-price">7 490 ₽</div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </main>
+    <footer>
+        <div class="up-footer">
+            <div class="up-footer__container">
+                <div class="logo-company"></div>
+                <div class="logo-company"></div>
+                <div class="logo-company"></div>
+                <div class="logo-company"></div>
+                <div class="logo-company"></div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="header__container">
+                <div class="logo">
+                    <img class = "header-logo" src="src/img/logo.png" alt="">
+                </div>
+                <ul class="menu">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Товары</a></li>
+                    <li><a href="#">Блог</a></li>
+                    <li><a href="#">О нас</a></li>
+                </ul>
+                <p class = "shop-rights">© Магазин персонального аудио «Doctorhead», 2007-2023</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

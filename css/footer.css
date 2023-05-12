@@ -1,0 +1,21 @@
+.up-footer {
+    margin-top: 40px;
+    background-color: #262626;
+    height: 82px;
+    width: 100%;
+}
+
+.footer {
+    background-color: #262626;
+    color: white;
+    height: 129px;
+}
+
+.footer a {
+    color: white;
+    font-size: 22px;
+}
+
+.footer .shop-rights{
+    margin-left: auto;
+}
